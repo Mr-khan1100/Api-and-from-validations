@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <section onsubmit=" return validate()">
+        <div class="imgBx"><img src="/img.jpg" alt="Tip of mountain "></div>
+        <div class="contentBx">
+            <div class="formBx">
+                <h3>Welcome back</h3>
+                <h2>Login to your account</h2>
+                <form action="">
+                    <div class="inputBx">
+                        <span >Email</span>
+                        <input id="em" placeholder="John.snow@gmail.com" type="email" required><br>
+                        <b><span id="email"></span></b>
+                    </div>
+                    <div class="inputBx">
+                        <span>Password</span>
+                        <input id="pass" placeholder="********" type="password" ><br>
+                        <span id="password"><b></b></span>
+                    </div>
+                    <div class="remember">
+                        <label><input type="radio">Remember me</label>
+                        <span><a class="forgot" href="#">Forgot password?</a></span>
+                    </div>
+                    <div class="inputBx">
+                        <button type="submit"  class="login">Login now</button>
+                    </div>
+                    <div class="inputBx">
+                        <button class="signup"><img class="logo" src="/google.png" alt="google logo"> Or sign-in with google</button>
+                    </div>
+                    <div class="inputBx">
+                        <p>Don't have an account? <a class="link" href="#">Join free today</a></p>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="/index.js"></script>
+</body>
+</html>
